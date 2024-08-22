@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1208cd31.css",
-    "main.js": "/static/js/main.26afbf40.js",
-    "static/js/453.5e560239.chunk.js": "/static/js/453.5e560239.chunk.js",
-    "index.html": "/index.html",
-    "main.1208cd31.css.map": "/static/css/main.1208cd31.css.map",
-    "main.26afbf40.js.map": "/static/js/main.26afbf40.js.map",
-    "453.5e560239.chunk.js.map": "/static/js/453.5e560239.chunk.js.map"
+    "main.css": "/dogCatlogue/static/css/main.1208cd31.css",
+    "main.js": "/dogCatlogue/static/js/main.e26e2770.js",
+    "static/js/453.5e560239.chunk.js": "/dogCatlogue/static/js/453.5e560239.chunk.js",
+    "index.html": "/dogCatlogue/index.html",
+    "main.1208cd31.css.map": "/dogCatlogue/static/css/main.1208cd31.css.map",
+    "main.e26e2770.js.map": "/dogCatlogue/static/js/main.e26e2770.js.map",
+    "453.5e560239.chunk.js.map": "/dogCatlogue/static/js/453.5e560239.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1208cd31.css",
-    "static/js/main.26afbf40.js"
+    "static/js/main.e26e2770.js"
   ]
 }
