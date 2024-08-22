@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 100%; 
+    max-width: 100%; 
+    /* table-layout: fixed;  */
+}
+
+.tableWrapper {
+    overflow-x: auto;
+    scrollbar-width: none; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+  }
+
+thead {
+    background-color: #f4f4f4; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+tbody {
+    color: #555; 
+    line-height: 1.2;
+    font-size: 13px;
+}
+
+table th, table td {
+    width: 10%; 
+}
+
+
+
+@keyframes shimmer {
+    from { background-position: 200% 0; }
+    to { background-position: -200% 0; }
+  }
+  
+  .shimmer {
+    animation: shimmer 5s linear infinite;
+    background: #f0f0f0 linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 25%, transparent 50%);
+    background-size: 200% 100%;
+    height: 1%;
+    width: 100%;
+    font-size: 3rem;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  

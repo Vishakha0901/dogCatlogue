@@ -1,0 +1,153 @@
+.pageWrapper {
+  margin: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.imageWrapper {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.cardWrapper {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+.cardWrapper:last-child {
+  margin-right: 0;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #484848;
+}
+
+.subHeading {
+  font-size: 14px;
+  color: #787878;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #484848;
+}
+
+.rowWrapper {
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.headingWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  display: inline-block;
+  display: relative;
+}
+
+.arrow {
+  border: 1px solid grey;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  position: absolute;
+  top: 6px;
+}
+
+.footerOuterDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footerArrow {
+  border: 1px solid grey;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 8px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 8px;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 30%;
+}
+.highlighCircle {
+  border-radius: 9999px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  background-color: grey;
+}
+
+.pageNumPointer {
+  cursor: pointer;
+}
+
+.tableWrapper {
+  height: 100%;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.shimmer {
+  animation: shimmer 5s linear infinite;
+  background: #f0f0f0
+    linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.2) 25%,
+      transparent 50%
+    );
+  background-size: 200% 100%;
+  height: 250px;
+  width: 350px;
+  font-size: 3rem;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.shimmerWrapper {
+  display: flex;
+}
